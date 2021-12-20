@@ -150,6 +150,71 @@ https://www.devopsschool.com/tutorial/jenkins/jenkins-installation-and-configura
 http://13.235.81.87:8080/
 rajesh
 rajesh123
+=====================================================
+Q1. - What is your tech?
+				
+		tech		Version		Is Installed or not?
+-------------------------------------------------------------------
+		JAVA		11
+		DOTNET
+		PYTHON
+		RUBY
+
+Q2. - Where is your Source Code?
+		Git		URL 		ACCESS		git is installed
+
+Q3. What is your Builder
+		maven		pom.xml	GOAL
+		-------------------------
+		Compile		mvn compile		
+		Test		mvn test
+		package		mvn package
+		Archive		mvn deploy
+
+		Gradle		build.gradle	Steps
+		-------------------------
+		Compile
+		Test
+		package
+		Archive		
+
+
+		Ant 		build.xml target
+		-------------------------
+		Compile
+		Test
+		package
+		Archive		
+
+Q4. How often this job to be triggered?
+		Hourly
+
+
+Q5. How do you like to have feedback?
+		- rajesh@devopsschool.com
+		
+
+
+
+=====================
+Q1. - What is your tech?
+		JAVA - 
+Q2. - Where is your Source Code?
+			https://github.com/devopsschool-demo-labs-projects/helloworld-java-maven
+Q3. What is your Builder
+		maven
+		Compile		mvn compile		
+		Test		mvn test
+		package		mvn package
+		Archive		mvn deploy
+Q4. How often this job to be triggered?
+		Hourly
+
+Q5. How do you like to have feedback?
+		rajesh@devopsschool.com
+
+
+SCREEN SHOT - https://www.devopsschool.com/blog/configure-jenkins-first-job-of-java-code-base-with-maven-build-tool/
 
 
 
