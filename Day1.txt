@@ -217,21 +217,23 @@ Q5. How do you like to have feedback?
 SCREEN SHOT - https://www.devopsschool.com/blog/configure-jenkins-first-job-of-java-code-base-with-maven-build-tool/
 
 
+===================================================================================
+===================================================================================
+Scheduling
+===================================================================================
+https://www.devopsschool.com/blog/how-to-schedule-and-trigger-a-jenkins-job-automatically/
 
 
 
+CURL 
+uSER:Token
+
+
+curl -X POST --user rajesh:11847fdcfe78f33390fdfc3e82957f57ea http://13.235.81.87:8080/job/Rajesh/job/compile/build?delay=0sec
 
 
 
-
-
-
-
-
-
-
-
-
+https://www.devopsschool.com/blog/how-to-schedule-and-trigger-a-jenkins-job-automatically/
 
 
 
