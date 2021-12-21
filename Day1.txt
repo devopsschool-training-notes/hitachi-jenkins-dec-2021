@@ -237,6 +237,55 @@ https://www.devopsschool.com/blog/how-to-schedule-and-trigger-a-jenkins-job-auto
 
 
 
+=============================================================================================
+It can integrate with ALL.
+=====================================================================================
+SonarQube
+Junit
+Jar 
+Nexus
+Ansible
+---------------
+13.233.123.92
+
+SonarQube
+=====================
+- Quality Mmgmt tool
+		- Code Quality
+		- Test Quality
+
+How it works?
+-------------------------------------
+Code ----> Check ----Code ----> Generate Report ABout code quality
+Rule ----> Check ----Code ----> Generate Report ABout code quality
+Rule(S) ----> Check ----Code ----> Generate Report ABout code quality
+SCA tool 
+
+Static COde Analysis Tool
+https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis
+
+
+SonarQube Server - DONE
+
+
+Source Code
+https://github.com/devopsschool-demo-labs-projects/java-sonarqube-helloworld-src
+
+
+Scanner	- DONE
+
+===========================
+How to integrate any tools in Jenkins
+-------------------------------------
+1. Install Plugins		DONE
+2. Configure Plugins		DONE
+3. Use Plugins in Job
+
+
+http://13.233.123.92:9000/
+admin
+admin123
+https://www.devopsschool.com/blog/how-to-integrate-sonarqube-with-jenkins-as-part-of-ci-cd/
 
 
 
