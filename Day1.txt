@@ -397,4 +397,86 @@ chmod 600 rajesh-mumbai.pem
 ansible-playbook -i inventory ansible-playbook.yaml -u centos --key-file=rajesh-mumbai.pem
 
 
+Jenkins Env vars
+https://www.devopsschool.com/blog/environment-variables-and-properties-defined-in-jenkins/
+
+
+My WORKSPACE is ${WORKSPACE} and BUILD_NUMBER is ${BUILD_NUMBER} and JOB_NAME is ${JOB_NAME}
+========================================================================
+How to add more Agent?
+--------------------------
+Agent
+	Can be 
+	- Vms
+		- AWS
+		- Local
+	- Physical Servers
+	- Container
+=================================
+======================================
+- Java MUST BE INSTALLED
+- Install jenkins-remote jar and run it.
+
+
+13.233.123.92
+centos
+keys
+/tmp/jenkins
+
+
+Executors
+	- Number of pArrell Diff Jobs you are Building in Each Agent
+
+Concurrency
+---------------------------------------------------------------------
+JOB - 1==== 1 HOUR
+--------------------------
+			Commit				Feedback
+Rajesh PUSHED a Code at 10 AM -				11: AM - 1 HOUR
+Ramu	----------------10.02 AM ------			12: AM - 1 Hour & 58 mins
+Raju			10:30 AM 			1 AM	--- 2.X....
+
+/var/lib/jenkins/workspace/Rajesh/job1
+/var/lib/jenkins/workspace/Rajesh/job1@2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
