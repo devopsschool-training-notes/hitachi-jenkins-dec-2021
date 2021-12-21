@@ -343,4 +343,58 @@ admin123
 
 target/yoodle-215.jar
 
-	
+===================================================================
+What is Ansible?
+---- Deployment tool
+
+How it works?
+---------------------------
+
+
+Human --> Ansible Control Server ---> Ansible Remote Server(S)
+
+
+Jenkins ---> Agent -------> Target Machine
+-------------------------------
+Component of ACS
+---------------------
+- Ansible	- its cmd tool for deployment 
+- Playbook	- Its a SCRIPT which would run in ARS | Parrell...
+- Inventory	- its a file which container IP add of Remote address
+
+
+---
+- name: Update web servers
+  hosts: web
+
+  tasks:
+  - name: Install Apache in centos7
+    ansible.builtin.yum:
+      name: httpd
+      state: latest
+  - name: Copy index.html
+    ansible.builtin.copy:
+      src: index.html
+      dest: /var/www/html/index.html
+  - name: Copy jar file
+    ansible.builtin.copy:
+      src: target/yoodle-215.jar
+      dest: /var/www/html/yoodle-215.jar
+  - name: Copy jar file
+    ansible.builtin.copy:
+      src: target/yoodle-215-javadoc.jar
+      dest: /var/www/html/yoodle-215-javadoc.jar
+  - name: Starting a Apache Server
+    ansible.builtin.service:
+      name: httpd
+      state: started
+
+[web]
+13.233.123.92
+13.235.81.87
+
+chmod 600 rajesh-mumbai.pem
+ansible-playbook -i inventory ansible-playbook.yaml -u centos --key-file=rajesh-mumbai.pem
+
+
+
