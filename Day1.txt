@@ -289,6 +289,51 @@ https://www.devopsschool.com/blog/how-to-integrate-sonarqube-with-jenkins-as-par
 
 
 
+---------------------
+SonarInstall Documents
+
+  4  ls
+    5  sudo -s
+    6  sudo yum install java-11-openjdk-devel
+    7  clar
+    8  clear
+    9  ls
+   10  clear
+   11  ls
+   12  java
+   13  clear
+   14  cd
+   15  ls
+   16  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.2.3.50713.zip
+   17  sudo yum install wget -y
+   18  clear
+   19  wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.2.3.50713.zip
+   20  ls
+   21  sudo yum install unzip -y
+   22  clear
+   23  ls
+   24  unzip sonarqube-9.2.3.50713.zip
+   25  clear
+   26  ls
+   27  cd sonarqube-9.2.3.50713
+   28  ls
+   29  cd bin/
+   30  ls
+   31  clear
+   32  ls
+   33  cd windows-x86-64/
+   34  ;s
+   35  clear
+   36  ls
+   37  d ..
+   38  cd ..
+   39  ls
+   40  clear
+   41  ls
+   42  cd linux-x86-64/
+   43  ls
+   44  ./sonar.sh start
+   45  ./sonar.sh status
 
 
 
