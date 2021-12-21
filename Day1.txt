@@ -335,7 +335,12 @@ SonarInstall Documents
    44  ./sonar.sh start
    45  ./sonar.sh status
 
+==================================================================
+docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+http://13.233.123.92:8081/
+admin
+admin123
 
-
+target/yoodle-215.jar
 
 	
