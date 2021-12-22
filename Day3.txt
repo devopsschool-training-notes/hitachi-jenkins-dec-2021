@@ -67,6 +67,19 @@ https://github.com/devopsschool-demo-labs-projects/helloworld-java-maven/blob/ma
 
 
 
+How to login into Jenkins or supported authentication methods in jenkins
+- Delegate to servlet container
+- 'Jenkins' own user database
+- LDAP
+- Unix user/group database
+- None
+
+How to set user's permissions for setting up required access in Jenkins?
+- Anyone can do anything
+- Legacy mode
+- Logged-in users can do anything
+- Matrix-based security
+- Project-based Matrix Authorization Strategy
 
 
 
@@ -80,8 +93,10 @@ https://github.com/devopsschool-demo-labs-projects/helloworld-java-maven/blob/ma
 
 
 
-Jenkins Authentication
-Jenkins Authorization
+
+
+
+
 
 Jenkins Backup
 Jenkins Restore
