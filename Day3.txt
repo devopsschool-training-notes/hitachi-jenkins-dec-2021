@@ -1,0 +1,54 @@
+Jenkins Feedback
+		Email
+			Mailer Plugin - Basic
+			Email Extension Plugin
+How to enable jenkins to send an email?
+
+Step 1 - Install following plugins
+- Mailer Plugin - Basic
+- Email Extension Plugin
+
+Step 2 - Setup FROM email address on "System Admin e-mail address" http://13.235.81.87:8080/configure
+
+Step 3 - Setup SMTP Server and test it.
+- Go to http://13.235.81.87:8080/configure
+- Locate "Extended E-mail Notification" for "Email Extension Plugin" & configure it
+- Locate "E-mail Notification" for "Mailer Plugin - Basic" & configure it
+
+Step 4 - Use it the job under "Post-build Actions"
+- "E-mail Notification" is for "Mailer Plugin - Basic"
+- "Editable Email Notification" is for "Email Extension Plugin"
+
+How to enable jenkins to send an chat message using team and slack?
+
+Step 1 - Install a jenkins plugins
+- Office 365 Connector
+- Slack Notification
+
+
+Step 2 - Configure plugins at http://13.235.81.87:8080/configure
+- Section called "Office 365 Connector"
+- Section called "Slack"
+
+
+
+
+
+
+
+		Chat
+		Pipeline
+
+Step 3 - Use in the Job
+
+
+
+Jenkins Authentication
+Jenkins Authorization
+
+Jenkins Backup
+Jenkins Restore
+
+Jenkins Multibranch Job
+-------
+Jenkins Command Line
