@@ -41,6 +41,42 @@ Step 2 - Configure plugins at http://13.235.81.87:8080/configure
 
 Step 3 - Use in the Job
 
+===========================================================
+How to create a Pipeline jobs in Jenkins?
+--------------------------------------------------
+
+You can make pipeline using any one of the following ways.
+- Use "Build Pipeline" plugin if you have already setup a jobs in Jenkins
+- Use "Pipeline" plugin if you would like to CODE for the pipeline jobs in Jenkins
+
+How to use "Build Pipeline" for creating pipeline?
+Step 1 - Install "Build Pipeline" plugins
+
+Step 2 - Create few sample jobs such as Scan,Compile,Test,Package
+
+Step 3 - Link Each jobs to one another using Trigger another job after this Job AKA "Post Build Action" => "Build Other project"
+- https://www.devopsschool.com/blog/trigger-jenkins-another-job-after-this-job-aka-post-build-action-build-other-project/
+
+Step 4 - Create a Build Pipeline 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Jenkins Authentication
