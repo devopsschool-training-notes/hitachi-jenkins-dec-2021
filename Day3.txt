@@ -58,11 +58,12 @@ Step 3 - Link Each jobs to one another using Trigger another job after this Job 
 - https://www.devopsschool.com/blog/trigger-jenkins-another-job-after-this-job-aka-post-build-action-build-other-project/
 
 Step 4 - Create a Build Pipeline 
+========================================================================
+https://www.devopsschool.com/blog/jenkins-pipeline-complete-reference-tutorials/
 
 
-
-
-
+https://www.devopsschool.com/blog/jenkins-pipeline-complete-reference-tutorials/
+https://github.com/devopsschool-demo-labs-projects/helloworld-java-maven/blob/master/jenkinsfile1
 
 
 
